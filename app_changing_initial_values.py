@@ -10,7 +10,7 @@ from ivp import Solver
 
 st.set_page_config(layout="wide")
 
-file = 'crntoolbox_results_aug_15\legewi_wild_higher_deficiency.rtf'
+file = 'crntoolbox_results_aug_15/legewi_wild_higher_deficiency.rtf'
 
 def plot_species_accross_initial_values(start_point, end_point, num_points, 
                                         initial_value_df, rate_df, species_observed, 
