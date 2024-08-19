@@ -1,0 +1,164 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+                        ================================\
+                        HIGHER DEFICIENCY REPORT: legewi\
+                        ================================\
+ \
+                                    Analysis\
+                                    ========\
+ \
+      Taken with mass action kinetics, the network DOES have the capacity for\
+ multiple steady states. That is, there are rate constants that give rise\
+ to two or more positive (stoichiometrically compatible) steady states --\
+ you'll see an example below. There MIGHT also exist rate constants for which\
+ there is a steady state having an eigenvector (in the stoichiometric subspace)\
+ corresponding to an eigenvalue of zero. (To try to construct rate constants\
+ that give a degenerate steady state, use the Zero Eigenvalue Report.)\
+ \
+ \
+ A mass action system example is also given below:\
+ \
+ \
+ \
+ \
+                     Example No. 1: Multiple Steady States\
+                     \'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\
+ \
+      The following mass action system gives rise to multiple steady states:\
+ \
+ \
+                         C9 + A* -------1-----> A*C9\
+                            A*C9 --0.71613323-> C9 + A*\
+                            A*C9 -------1-----> 0\
+                               0 ---47.199815-> A*\
+                               0 ---166.19172-> C9\
+                               0 ---186.86809-> X\
+                               0 ---27.059983-> C3\
+                         C3 + C9 -------1-----> C3* + C9\
+                        C3* + C9 ---51.202574-> C9* + C3*\
+                       C3 + A*C9 --0.71613323-> C3* + A*C9\
+                      C3* + A*C9 ---18.089124-> A*C9* + C3*\
+                        C3 + C9* ---23.059983-> C9* + C3*\
+                      C3 + A*C9* -------1-----> A*C9* + C3*\
+                        C9* + A* ---101.75094-> A*C9*\
+                           A*C9* -------1-----> 0\
+                           A*C9* -------1-----> C9* + A*\
+                          C9 + X ---64.440778-> C9X\
+                             C9X -------1-----> 0\
+                             C9X --9.2180 E-2-> C9 + X\
+                        A*C9 + X ---20.101017-> A*C9X\
+                           A*C9X -------1-----> 0\
+                           A*C9X ---79.661356-> A*C9 + X\
+                           A*C9X ---23.706437-> C9X + A*\
+                        C9X + A* ---7.0333007-> A*C9X\
+                         C9* + X -------1-----> C9*X\
+                            C9*X -------1-----> 0\
+                            C9*X --9.3332 E-3-> C9* + X\
+                       A*C9* + X ---150.94709-> A*C9*X\
+                          A*C9*X -------1-----> 0\
+                          A*C9*X --2.3362 E-2-> A*C9* + X\
+                          A*C9*X ---2.5265188-> C9*X + A*\
+                       C9*X + A* --9.3332 E-3-> A*C9*X\
+                         C3* + X ---12.616982-> C3*X\
+                            C3*X -------1-----> 0\
+                            C3*X --4.1540 E-2-> C3* + X\
+                              A* -------1-----> 0\
+                              C9 -------1-----> 0\
+                               X -------1-----> 0\
+                              C3 -------1-----> 0\
+                             C3* -------1-----> 0\
+                             C9* -------1-----> 0\
+ \
+ \
+      The steady states shown below are both consistent with the mass\
+ action system indicated.\
+ \
+ \
+     Steady State No. 1	         Species	Steady State No. 2\
+     \'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af	         \'af\'af\'af\'af\'af\'af\'af	\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\
+              1        	               A*     	         1        \
+              1        	               C9     	    0.36787944    \
+          10.848245    	              C9X     	     80.158291    \
+              1        	               X      	     7.389056     \
+              1        	             A*C9X    	     20.085536    \
+          1.3963881    	              A*C9    	     10.31799     \
+              1        	               C3     	     2.7182818    \
+          1.9872232    	              C3*     	    0.26894142    \
+          24.07276     	              C3*X    	     24.07276     \
+          107.14366    	              C9*X    	     39.415951    \
+              1        	              C9*     	    4.9787 E-2    \
+              1        	             A*C9*    	    4.9787 E-2    \
+          42.803427    	             A*C9*X   	      15.7465     \
+ \
+ \
+                       Eigenvalues for Steady State No. 1\
+                       \'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\
+ \
+                                   -399.48975\
+                                   -235.63134\
+                                   -195.15624\
+                                   -89.852094\
+                                   -111.89817\
+                                   -37.203989\
+                                   -14.576262\
+                                   -4.1502596\
+                                   -1.0556109\
+                                   -0.9999999\
+                                       -1\
+                                       -1\
+                                       -1\
+ \
+                  Steady State No. 1 is asymptotically stable.\
+ \
+ \
+ \
+                       Eigenvalues for Steady State No. 2\
+                       \'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\
+ \
+                                   -1126.0014\
+                                   -615.73051\
+                                   -549.19032\
+                                   -395.12129\
+                                   -137.24907\
+                                   -69.396402\
+                                   -9.6299868\
+                                   -3.1255963\
+                                   -1.0190459\
+                                   -0.9999999\
+                                       -1\
+                                       -1\
+                                   -0.9999999\
+ \
+                  Steady State No. 2 is asymptotically stable.\
+ \
+ \
+ \
+ \
+ \
+                                   References\
+                                   \'af\'af\'af\'af\'af\'af\'af\'af\'af\'af\
+ \
+ 1. Feinberg, M., Chemical reaction network structure and the stability of comp-\
+ lex isothermal reactors. I. The deficiency zero and deficiency one theorems,\
+ Chem. Eng. Science, 42, 2229-2268 (1987).\
+ \
+ 2. Ellison, P. and Feinberg, M. How catalytic mechanisms reveal themselves\
+ in multiple steady state data. I. Basic principles, The Journal of Molecular\
+ Catalysis A: Chemical, 154, 155 - 167, 2000.  \
+ \
+ 3. Ellison, P. PhD. Thesis. Rochester, NY: Department of Chemical Engineer-\
+ ing, University of Rochester; 1998. The advanced deficiency algorithm\
+ and itsapplications to mechanism discrimination.\
+ \
+ 4. Ji, H. PhD. Thesis. Columbus, OH: Department of Mathematics, The Ohio \
+ State University; 2011. Uniqueness of equilibria for complex chemical reaction\
+ networks.\
+ \
+                                  ***********\
+}
