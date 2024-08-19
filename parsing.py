@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import re
 import math
-
+import os
 def fix_scientific_notation_text(text):  
     split_text = text.split('E')
     if len(split_text) > 1:
@@ -16,6 +16,8 @@ def fix_scientific_notation_text(text):
 
 def extract_steady_state_df(file):
     lines = []
+    print('------------------------------')
+    print(os.getcwd())
     with open(file, 'r') as f:
         for line in f:
             lines.append(line)

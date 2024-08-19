@@ -31,8 +31,6 @@ def plot_species_accross_initial_values(start_point, end_point, num_points,
     ax.legend([species_initial_value_changed + " = " + str(sp) for sp in varied_initial_values])
     return(fig, ax)
 
-file = 'crntoolbox_results_aug_15\legewi_wild_higher_deficiency.rtf'
-
 if 'steady_state_df' not in st.session_state:
     st.session_state['steady_state_df'] = extract_steady_state_df(file)
 
