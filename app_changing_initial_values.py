@@ -59,11 +59,11 @@ with col3:
 
 row2_col1, row2_col2, row2_col3, row2_col4 = st.columns(4)
 with row2_col1:
-    species_observed = st.selectbox('Species to Observe', set(st.session_state.initial_value_df.species), index=9)
+    species_observed = st.selectbox('Species to Observe', st.session_state.initial_value_df.species, index=9)
     st.write('You selected to observe: ', species_observed)
 
 with row2_col2:
-    species_initial_value_changed = st.selectbox('Species with Changing Initial Values', set(st.session_state.initial_value_df.species), index=12)
+    species_initial_value_changed = st.selectbox('Species with Changing Initial Values', st.session_state.initial_value_df.species, index=3)
 
 st.header('Results')
 
